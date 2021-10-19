@@ -3797,6 +3797,7 @@ Arguments:
       </td>
       <td>An expression that returns a vertex, an edge, or an agtype map.
       </td>
+   </tr>
 </table>
 
 Considerations: properties(null) returns null.
