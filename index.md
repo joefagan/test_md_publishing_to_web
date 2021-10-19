@@ -721,40 +721,35 @@ Result:
       <td>p
       </td>
    </tr>
-	  <tr>
-   <td>[
-   </td>
-  </tr>
    <tr>
-      	<td>
-            {"id": 0, "label": "label_name_1", "properties": {"i": 0}}::vertex,
-	</td>
-	</tr>
-	<tr>
-		<td>
-            {"id": 2, "label": "edge_label", "end_id": 1, "start_id": 0, "properties": {"i": 0}}::edge, 
-		</td>
-	</tr>
-	<tr>
-		<td>
-            {"id": 1, "label": "label_name_2", "properties": {}}::vertex
-		</td>
-	</tr>
-	<tr>
-		<td>
-			
-            ]::path
+      <td>[
       </td>
-	</tr>
+   </tr>
+   <tr>
+      <td>
+         {"id": 0, "label": "label_name_1", "properties": {"i": 0}}::vertex,
+      </td>
+   </tr>
+   <tr>
+      <td>
+         {"id": 2, "label": "edge_label", "end_id": 1, "start_id": 0, "properties": {"i": 0}}::edge, 
+      </td>
+   </tr>
+   <tr>
+      <td>
+         {"id": 1, "label": "label_name_2", "properties": {}}::vertex
+      </td>
+   </tr>
+   <tr>
+      <td>
+         ]::path
+      </td>
+   </tr>
    <tr>
       <td>(1 row)
       </td>
    </tr>
 </table>
-
-Table edited to see if it fixes issue
-## header two
-
 
 ## Comparability, Equality, Orderability and Equivalence
 
