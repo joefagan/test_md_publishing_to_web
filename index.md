@@ -3134,7 +3134,8 @@ $$) as (p agtype);
 
 This query creates three nodes and two relationships in one go, assigns it to a path variable, and returns it.
 
-Result
+Result 
+# moved square brackets
 
 
 <table>
