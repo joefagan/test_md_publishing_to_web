@@ -3786,22 +3786,25 @@ Arguments:
 
 
 <table>
-  <tr>
-   <td>Name
-   </td>
-   <td>Description
-   </td>
-  </tr>
-  <tr>
-   <td>Expression
-   </td>
-   <td>An expression that returns a vertex, an edge, or an agtype map.
-<p>
-Considerations: properties(null) returns null.
-   </td>
-  </tr>
+   <tr>
+      <td>Name
+      </td>
+      <td>Description
+      </td>
+   </tr>
+   <tr>
+      <td>Expression
+      </td>
+   </tr>
+   <tr>
+      <td>An expression that returns a vertex, an edge, or an agtype map.
+      </td>
+   <tr>
+      <td>
+         Considerations: properties(null) returns null.
+      </td>
+   </tr>
 </table>
-
 
 Considerations: 
 
