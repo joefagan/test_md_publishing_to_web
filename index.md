@@ -3143,9 +3143,9 @@ Result
    </td>
   </tr>
   <tr>
-   <td>[
+   <td>
 <p>
-    {id:0; label: ‘’; properties:{name:’Andres’}}::vertex,
+    [{id:0; label: ‘’; properties:{name:’Andres’}}::vertex,
 <p>
     {id: 3; startid: 0, endid: 1; label: ‘WORKS_AT’; properties: {}}::edge,
 <p>
@@ -3153,9 +3153,7 @@ Result
 <p>
     {id: 3; startid: 2, endid: 1; label: ‘WORKS_AT’; properties: {}}::edge,
 <p>
-    {id:2; label: ‘’; properties: {name:’Michael’}}::vertex
-<p>
-]::path
+    {id:2; label: ‘’; properties: {name:’Michael’}}::vertex]::path
    </td>
   </tr>
   <tr>
