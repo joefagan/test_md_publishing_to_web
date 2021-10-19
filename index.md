@@ -3171,34 +3171,36 @@ $$) as (p agtype);
 This query creates three nodes and two relationships in one go, assigns it to a path variable, and returns it.
 
 Result 
-# moved square brackets
+# moved square brackets - seems to work?
 
 
 <table>
-  <tr>
-   <td><strong>p</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
-<p>
-    [{id:0; label: ‘’; properties:{name:’Andres’}}::vertex,
-<p>
-    {id: 3; startid: 0, endid: 1; label: ‘WORKS_AT’; properties: {}}::edge,
-<p>
-    {id:1; label: ‘’; properties: {}}::vertex
-<p>
-    {id: 3; startid: 2, endid: 1; label: ‘WORKS_AT’; properties: {}}::edge,
-<p>
-    {id:2; label: ‘’; properties: {name:’Michael’}}::vertex]::path
-   </td>
-  </tr>
-  <tr>
-   <td>(1 row)
-   </td>
-  </tr>
-</table>
-
+    <tr>
+       <td><strong>p</strong>
+       </td>
+    </tr>
+    <tr>
+       <td>
+          [{id:0; label: ‘’; properties:{name:’Andres’}}::vertex,
+       </td>
+    </tr>
+    <tr>
+       <td>{id: 3; startid: 0, endid: 1; label: ‘WORKS_AT’; properties: {}}::edge,</td>
+    </tr>
+    <tr>
+       <td>{id:1; label: ‘’; properties: {}}::vertex</td>
+    </tr>
+    <tr>
+       <td>{id: 3; startid: 2, endid: 1; label: ‘WORKS_AT’; properties: {}}::edge,</td>
+    </tr>
+    <tr>
+       <td>{id:2; label: ‘’; properties: {name:’Michael’}}::vertex]::path</td>
+    </tr>
+    <tr>
+       <td>(1 row)
+       </td>
+    </tr>
+ </table>
 
 
 ### SET
