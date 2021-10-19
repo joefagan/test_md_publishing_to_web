@@ -721,24 +721,38 @@ Result:
       <td>p
       </td>
    </tr>
+	  <tr>
+   <td>[
+   </td>
+  </tr>
    <tr>
-      <td>
-         <p>
+      	<td>
             {"id": 0, "label": "label_name_1", "properties": {"i": 0}}::vertex,
-         <p>
+	</td>
+	</tr>
+	<tr>
+		<td>
             {"id": 2, "label": "edge_label", "end_id": 1, "start_id": 0, "properties": {"i": 0}}::edge, 
-         <p>
+		</td>
+	</tr>
+	<tr>
+		<td>
             {"id": 1, "label": "label_name_2", "properties": {}}::vertex
-         <p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			
             ]::path
       </td>
-   </tr>
+	</tr>
    <tr>
       <td>(1 row)
       </td>
    </tr>
 </table>
-Table removed to see if it fixes issue
+
+Table edited to see if it fixes issue
 ## header two
 
 
